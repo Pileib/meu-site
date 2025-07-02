@@ -209,11 +209,15 @@ footer {
   }
 
   .sinopse-box h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .btn-voltar {
     font-size: 1rem;
     padding: 8px 12px;
+  }
+
+  footer {
+    font-size: 0.7rem;
   }
 }
