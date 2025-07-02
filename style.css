@@ -202,7 +202,6 @@ footer {
   color: #ccc;
   font-size: 0.85rem;
 }
-/* Responsividade geral para telas pequenas */
 @media (max-width: 768px) {
   body {
     padding: 10px;
@@ -215,13 +214,24 @@ footer {
   }
 
   .card, .sinopse-box {
+    flex-direction: column;
     max-width: 100%;
     padding: 20px;
     font-size: 1.2rem;
   }
 
+  .image-box {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .content-box {
+    width: 100%;
+    padding: 20px;
+  }
+
   .sinopse-box h1,
-  .card h1 {
+  .content-box h1 {
     font-size: 2.5rem;
     text-align: center;
   }
@@ -241,8 +251,8 @@ footer {
   }
 
   .pdf-icon {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     margin-top: 5px;
   }
 
@@ -251,6 +261,13 @@ footer {
   .btn-outline {
     font-size: 1rem;
     padding: 10px 16px;
+    margin: 5px 0;
+  }
+
+  .botoes {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
 
   footer {
@@ -264,4 +281,5 @@ footer {
     height: auto;
   }
 }
+
 
