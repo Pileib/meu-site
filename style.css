@@ -202,22 +202,66 @@ footer {
   color: #ccc;
   font-size: 0.85rem;
 }
+/* Responsividade geral para telas pequenas */
 @media (max-width: 768px) {
-  .sinopse-box {
+  body {
+    padding: 10px;
+  }
+
+  .wrapper, .sinopse-page {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .card, .sinopse-box {
+    max-width: 100%;
     padding: 20px;
     font-size: 1.2rem;
   }
 
-  .sinopse-box h1 {
+  .sinopse-box h1,
+  .card h1 {
     font-size: 2.5rem;
+    text-align: center;
   }
 
-  .btn-voltar {
+  .descricao {
     font-size: 1rem;
-    padding: 8px 12px;
+    text-align: center;
+  }
+
+  .preco-com-icone {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .preco-com-icone strong {
+    font-size: 1.4rem;
+  }
+
+  .pdf-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  .btn-voltar,
+  .btn-solid,
+  .btn-outline {
+    font-size: 1rem;
+    padding: 10px 16px;
   }
 
   footer {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
+
