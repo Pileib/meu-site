@@ -202,3 +202,18 @@ footer {
   color: #ccc;
   font-size: 0.85rem;
 }
+@media (max-width: 768px) {
+  .sinopse-box {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+
+  .sinopse-box h1 {
+    font-size: 3rem;
+  }
+
+  .btn-voltar {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+}
